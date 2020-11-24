@@ -1,0 +1,51 @@
+@import url("~leaflet/dist/leaflet.css");
+
+#root,
+.leaflet-container {
+    position: relative;
+    height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+    top: 10%;
+    border-radius: 15px;
+    z-index: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top right, black 10%, indigo, darkmagenta) no-repeat;
+    background-size: 100%;
+}
+
+.basemaps-container {
+    position: absolute;
+    z-index: 1000;
+    top: 20px;
+    right: 20px;
+    height: auto;
+    width: auto;
+}
+
+.basemaps-container select {
+    border-radius: 4px 4px 0 0;
+    width: 110px;
+    height: 20px;
+    background-color: violet;
+    border: none;
+}
+
+.geojson-toggle {
+    position: absolute;
+    z-index: 1000;
+    top: 41px;
+    right: 20px;
+    height: auto;
+    width: 110px;
+    border-radius: 4px;
+    background-color: violet;
+    border: none;
+}
+
+.geojson-toggle input {
+
+}
